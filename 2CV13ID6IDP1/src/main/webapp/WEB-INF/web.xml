@@ -1,12 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>NewServlet</servlet-name>
-        <servlet-class>admin.NewServlet</servlet-class>
+        <servlet-name>ServletCrear</servlet-name>
+        <servlet-class>admin.ServletCrear</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletPrincipal</servlet-name>
+        <servlet-class>admin.ServletPrincipal</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletCrear2</servlet-name>
+        <servlet-class>admin.ServletCrear2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>admin.UploadServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletBorrar</servlet-name>
+        <servlet-class>admin.ServletBorrar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletModificar</servlet-name>
+        <servlet-class>admin.ServletModificar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletModificarFormulario</servlet-name>
+        <servlet-class>admin.ServletModificarFormulario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletLeer</servlet-name>
+        <servlet-class>admin.ServletLeer</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>NewServlet</servlet-name>
-        <url-pattern>/NewServlet</url-pattern>
+        <servlet-name>ServletCrear</servlet-name>
+        <url-pattern>/ServletCrear</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletPrincipal</servlet-name>
+        <url-pattern>/ServletPrincipal</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletCrear2</servlet-name>
+        <url-pattern>/ServletCrear2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletBorrar</servlet-name>
+        <url-pattern>/ServletBorrar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletModificar</servlet-name>
+        <url-pattern>/ServletModificar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletModificarFormulario</servlet-name>
+        <url-pattern>/ServletModificarFormulario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletLeer</servlet-name>
+        <url-pattern>/ServletLeer</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
